@@ -33,9 +33,9 @@ Time complexity analysis:
 
 In conclusion, this function's time complexity is:
 
-| Average Case     | Worst Case                 |
-| ---------------- | -------------------------- |
-| `pyO(len(bagA))` | `O(len(bagA) * len(bagB))` |
+| Average Case   | Worst Case                 |
+| -------------- | -------------------------- |
+| `O(len(bagA))` | `O(len(bagA) * len(bagB))` |
 
 if the terms SMALL and LARGE has an enormous difference, case 2 will always be faster than case 1 significantly.
 
